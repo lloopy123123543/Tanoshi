@@ -84,6 +84,7 @@ a{
         align-items: center;
         flex-direction: column;
         animation: animate 140s infinite linear;
+        
     
     
     }
@@ -94,8 +95,9 @@ a{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background:rgb(34, 206, 100);
-        color: black;
+        background:rgb(34, 172, 206);
+        color: white;
+        box-shadow: 20px 20px 20px black;
     }
     .about_title{
         font-size: 50px;
@@ -112,6 +114,8 @@ a{
         display: flex;
         justify-content: center;
         align-items: center;
+        box-shadow: 0px 0px 20px black;
+        z-index: 2;
     }
     .rules_title{
         margin-top: 30px;
@@ -127,7 +131,7 @@ a{
         height: 100%;
         background-color: rgba(255, 255, 255, 0.52);
 
-        box-shadow: 0px 0px 10px black;
+        
 
     }
     .rules_block_text{
