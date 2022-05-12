@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
 
     margin: 0;
@@ -6,7 +8,7 @@ body{
     perspective: 1px;
     
     display: block;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
     cursor: default;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -63,6 +65,7 @@ a{
         text-align: center;
         color: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);;;
         font-size: 50px;
+        font-weight: SemiBold 600;
         
     }
     .Title__decor{
@@ -72,7 +75,7 @@ a{
         background: linear-gradient(60deg, #EF5858 0%, #EF5858 100%);;
     }
     .header{
-        background:url("./img/bg3.png"), linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+        background:url("./img/gris2.png"), linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
         background-attachment: fixed;
 
     
@@ -95,9 +98,10 @@ a{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background:rgb(34, 172, 206);
+        background:rgb(38, 180, 216);
+        background: url("./img/gris.png");
+        background-attachment: fixed;
         color: white;
-        box-shadow: 20px 20px 20px black;
     }
     .about_title{
         font-size: 50px;
@@ -110,12 +114,14 @@ a{
     .rules{
         width: 100%;
         height: 1900px;
-        background: url("./img/wp.jpg");
+        background-blend-mode: screen;
+        background: linear-gradient(40deg,#739EC8 20%,#88A5FC 50%);
+        background: url("./img/gris3.png");
+        background-attachment: fixed;
         background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 0px 0px 20px black;
         z-index: 2;
     }
     .rules_title{
@@ -142,7 +148,7 @@ a{
         width: 80%;
         font: 25px;
     }
-    @keyframes animate{
+    @keyframes animatee{
         0%{
             background-position:0 0;
     
@@ -167,9 +173,10 @@ a{
     
     
     .header-text{
-        color: white;
+        text-align: center;
+        color: black;
         font-size: 40px;
-        font-weight: 200;
+        font-weight:700;
         
     
     }
@@ -180,7 +187,7 @@ a{
         width: 90px;
         height: 35px;
         border-radius: 30px;
-        background-color: white;
+        background-color: #e7a644;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -188,15 +195,17 @@ a{
     
     }
     .button:hover{
-        transition: .25s;
-        color: white;
-        background-color: rgba(0,172,193,0.96);
+        width: 88px;
+        height: 33px;
+        border: 1px solid black;
     }
     
     .header-subtext{
+        font-weight: Regular 400 Italic;
+        text-align: center;
        
         height: 50px;
-        color: white;
+        color: black;
     }
     .logo{
     
@@ -208,7 +217,8 @@ a{
         justify-content: center;
         align-items: center;
         background-color: #5662F6;
-        background: url("./img/bg2.jpg");
+        background: url("./img/gris4.png");
+        background-attachment: fixed;
         color: white;
     
     }
@@ -216,6 +226,7 @@ a{
         width: 320px;
         height: 220px;
         background-color: rgba(0,172,193,1);
+        background-size: cover;
         border-radius: 0px;
         display: flex;
         justify-content: center;
@@ -368,7 +379,6 @@ a{
         justify-content: center;
         width: 100%;
         height: 100%;
-        background-color: rgba(255, 255, 255, 0.52);
 
         box-shadow: 0px 0px 10px black;
 
@@ -409,7 +419,6 @@ a{
         justify-content: center;
         width: 100%;
         height: 100%;
-        background-color: rgba(255, 255, 255, 0.52);
 
         box-shadow: 0px 0px 10px black;
 
